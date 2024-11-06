@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <title>Employee Login</title>
+        <link rel="stylesheet" href="../design/login_page.css">
+        <link rel="stylesheet" href="../design/home.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../">HOME</a></li>
+                <li><a href="../process/">ABOUT</a></li>
+                <li><a href="../travel_agent/">AGENT</a></li>
+                <li><a href="../employee/">EMPLOYEE</a></li>
+                <li><a href="../passenger/">PASSENGER</a></li>
+                <li><a href="../admin/">ADMIN</a></li>
+                <li><a href="../process/schedule.html">SCHEDULE</a></li>
+                <li><a href="../process/contact.php">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="background"></div>
+        <div class="login_form">
+            <form method="post" action="emp_validate.php">
+                <br><br>
+                <div class="lbl3">
+                    <label>Employee</label><br><br><br>
+                </div>
+                <div class="credentials">
+                    <input type="username" name="emp_username" placeholder="Username" autofocus required>
+                    <br><br><br>
+                    <input type="password" name="emp_password" placeholder="Password" required>
+                    <br><br><br>
+                </div>
+                <div class="submit2">
+                    <input type="submit" value="Sign In">
+                    <br><br>
+                    <a href="forgot_emp.html">Forgot Password?</a><br><br><br>
+                </div>
+        </div>
+    </body>
+</html>
